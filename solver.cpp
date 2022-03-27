@@ -401,7 +401,7 @@ namespace Solver {
             rv.best_score = 0;
             return rv;
         }
-        if (db && num_turns <= 3 && db->query(m, Job::no_guess, static_cast<Objective>(num_turns), rv)) {
+        if (db && num_turns <= 5 && db->query(m, Job::no_guess, static_cast<Objective>(num_turns), rv)) {
             return rv;
         }
 
