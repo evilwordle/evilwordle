@@ -1,4 +1,8 @@
-Copy/pasted from https://evilwordle.com/info :
+# How do I read this code?
+The **Word** class represents a word. The **CMask** class represents the state of the game, meaning that it uniquely specifies what answers are allowed and which are not. All of the tricky fast optimized logic is all in CMask. The **Solver** namespace has the functions that actually do the mini-max, but that's all straightforward. Everything else just provides the command line interface with an optional layer of caching results.
+
+---
+# The rest of this description is a copy/paste from https://evilwordle.com/info
 
 # What is Wordle?
 Play it or read about the rules here: https://www.nytimes.com/games/wordle/index.html
